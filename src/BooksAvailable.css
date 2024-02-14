@@ -1,0 +1,39 @@
+.books-available {
+  margin-top: 20px;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.book {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.book img {
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.book-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-author {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.book-rating {
+  margin-bottom: 5px;
+}
+
+.book-price {
+  font-weight: bold;
+}
