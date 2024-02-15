@@ -4,6 +4,7 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  width: 500px;
 }
 
 .book-image {
@@ -14,6 +15,7 @@
 
 .book-details {
   flex-grow: 1;
+  text-align: center;
 }
 
 .book-name {

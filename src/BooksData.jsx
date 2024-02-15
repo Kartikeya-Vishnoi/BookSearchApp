@@ -31,6 +31,22 @@ const books = [
       price: 14.99,
       imageUrl: "https://m.media-amazon.com/images/I/918wxhKJaPL._AC_UF1000,1000_QL80_.jpg"
     },
+    {
+      id: 5,
+      title: 'One Indian Girl',
+      author: 'Chetan Bhagat',
+      ratings: 4.1,
+      price: 19.99,
+      imageUrl: "https://www.jiomart.com/images/product/original/rvmsybhmya/one-indian-girl-chetan-bhagat-paper-back-280-pages-product-images-orvmsybhmya-p595044786-0-202211041706.jpg?im=Resize=(1000,1000)"
+    },
+    {
+      id: 6,
+      title: 'Think like a Monk',
+      author: 'Jay Shetty',
+      ratings: 4.6,
+      price: 35.99,
+      imageUrl: "https://m.media-amazon.com/images/I/71dAe-C-ClL._AC_UF1000,1000_QL80_.jpg"
+    }
     // Add more books as needed
   ];
   

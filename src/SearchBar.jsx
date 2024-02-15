@@ -41,7 +41,7 @@ const SearchBar = () => {
   return (
     <>
     <div className="search-container"> {/* Apply class name */}
-      <h1 className="title">Book Search App</h1>
+      <h1 className="title" style={{"margin-top":"0"}}>Book Search App</h1>
       <input
         type="text"
         placeholder="Search for books..."
@@ -51,6 +51,7 @@ const SearchBar = () => {
       />
       {/* Display search results */}
       <div className="search-results">
+        {searchResults.length > 0 && <h2>Results are</h2>}
         {searchResults.map(book => (
           <Book
             key={book.id}
@@ -63,7 +64,7 @@ const SearchBar = () => {
         ))}
       </div>
     </div>
-    <BooksAvailable books={searchTerm === '' ? books : books} />
+    {searchResults.length === 0 && <BooksAvailable books={books} />}
     </>
   );
 };

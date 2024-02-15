@@ -3,7 +3,9 @@ import SearchBar from './SearchBar'
 
 export function App(props) {
   return (
+    <div style={{background:"#B9B9B9"}}>
     <SearchBar/>
+    </div>
   );
 }
 

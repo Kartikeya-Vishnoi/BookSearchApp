@@ -1,16 +1,20 @@
 .books-available {
   margin-top: 20px;
+  width: 100px;
+  height: 600px;
 }
 
-.book-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+.booklist {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 
 .book {
   border: 1px solid #ddd;
   padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .book img {
